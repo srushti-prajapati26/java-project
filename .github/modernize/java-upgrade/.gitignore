@@ -1,8 +1,9 @@
+    node_modules/
+    dist/
+    /backend/target/
+    backend/src/main/resources/application.properties
+    .env
+    .env.*
+    !.env.example
+    *.log
 backend/src/main/resources/application.properties
-node_modules/
-dist/
-backend/target/
-.env
-.env.*
-!.env.example
-*.log
