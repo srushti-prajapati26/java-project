@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Management System (EMS)
 
 Full-stack Employee Management System built with React + Vite, Spring Boot, Spring Data JPA, MySQL, and JWT authentication.
@@ -92,3 +93,6 @@ The project demonstrates React SPA integration with a Spring Boot REST API, JPA/
 - Employee email addresses must end exactly in `@gmail.com`. This is checked in React and again by the backend.
 - A loan's principal cannot exceed 50% of that employee's monthly salary, and the combined monthly EMI of all active loans also cannot exceed 50% of monthly salary. The backend enforces both checks, so bypassing the browser form does not bypass the rule.
 - For an existing database, run `DATABASE_MIGRATION_ATTENDANCE_VIEW.sql` to add read-only `attendance_register`, `attendance_monthly_register`, and `employee_loan_register` views that display employee names alongside attendance and loan records in MySQL Workbench. The monthly view has a row for every employee/date and labels future dates instead of inserting fake attendance data. No database reset is required. `DATABASE_OPTIONAL_CLEANUP_FUTURE_ATTENDANCE.sql` lets you inspect future-dated rows such as an accidental October 26 record; its DELETE statement is commented out and must only be run after checking the results.
+=======
+# java-project
+>>>>>>> origin/main
