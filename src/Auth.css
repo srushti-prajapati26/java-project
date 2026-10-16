@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+.auth-shell {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 18px;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(216,181,108,.12), transparent 35%),
+    radial-gradient(circle at 80% 90%, rgba(98,170,255,.08), transparent 35%),
+    #080c11;
+  color: #f5f7fa;
+}
+
+.auth-card {
+  width: min(440px, 100%);
+  padding: 38px;
+  border: 1px solid #27313d;
+  border-radius: 20px;
+  background: #141a22;
+  box-shadow: 0 25px 70px rgba(0,0,0,.35);
+}
+
+.auth-brand {
+  color: #f1d28e;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #8b97a6;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  margin: 4px 0 34px;
+}
+
+.auth-card h1 {
+  color: #f5f7fa;
+  font-size: 26px;
+  margin: 0 0 8px;
+  letter-spacing: 0;
+}
+
+.auth-description {
+  color: #8b97a6;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-field label {
+  display: block;
+  color: #9aa5b3;
+  font-size: 10px;
+  letter-spacing: .8px;
+  margin-bottom: 7px;
+}
+
+.auth-field input {
+  width: 100%;
+  background: #0d131a;
+  color: #fff;
+  border: 1px solid #27313d;
+  border-radius: 9px;
+  padding: 13px;
+  outline: none;
+}
+
+.auth-field input:focus {
+  border-color: #d8b56c;
+}
+
+.auth-primary {
+  border: 0;
+  background: linear-gradient(135deg, #d8b56c, #f1d28e);
+  color: #151108;
+  padding: 13px 17px;
+  border-radius: 9px;
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+.auth-primary:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+.auth-switch {
+  width: 100%;
+  margin-top: 18px;
+  border: 0;
+  background: transparent;
+  color: #d8b56c;
+  font-size: 12px;
+}
+
+.auth-success,
+.auth-error {
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.auth-success {
+  color: #42d39a;
+  background: rgba(66,211,154,.09);
+  border: 1px solid rgba(66,211,154,.2);
+}
+
+.auth-error {
+  color: #ff6477;
+  background: rgba(255,100,119,.09);
+  border: 1px solid rgba(255,100,119,.2);
+}
+
+.demo-account {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid #27313d;
+  color: #8b97a6;
+  font-size: 10px;
+}
+
+.demo-account strong {
+  color: #cfd6de;
+  font-size: 11px;
+}
